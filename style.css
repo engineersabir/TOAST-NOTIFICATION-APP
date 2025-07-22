@@ -3,3 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background: #f7edff;
+}
+.buttons{
+    margin: 50px;
+}
+.buttons button{
+    background: #333;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    width: 40px;
+    height: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
