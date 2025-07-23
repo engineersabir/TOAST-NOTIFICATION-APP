@@ -31,6 +31,15 @@
        toast.classList.add('toast');
        toast.innerHTML=msg;
        toastbox.appendChild(toast);
+
+       if (msg.includes('error')){
+        toast.classList.add('error');
+       }if(msg.includes('invalid')){
+        toast.classList.add('invalid');
+       }
+       setTimeout(()=>{
+         toast.remove();
+       },4000);
     
             
     
